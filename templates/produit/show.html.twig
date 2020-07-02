@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProduitController!{% endblock %}
+
+{% block body %}
+
+    <div>
+        <img src="{{produit.photo}}">
+        {{produit.nom}}
+        {{produit.prix}} F CFA
+        {{produit.description}}
+        {{produit.stock}}
+    
+    </div>
+
+
+{% endblock %}
